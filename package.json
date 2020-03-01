@@ -1,0 +1,23 @@
+{
+  "name": "base-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "live-server",
+    "scss-watch": "watch 'npm run scss-compile' source/styles",
+    "scss-compile": "node-sass source/styles/styles.scss > styles/styles.css",
+    "sass-lint": "sass-lint -c sass-lint.yaml 'source/styles/**/*.scss' -v -q"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "node-sass": "^4.13.1",
+    "sass-lint": "^1.13.1",
+    "watch": "^1.0.2"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
