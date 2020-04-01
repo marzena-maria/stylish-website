@@ -1,4 +1,6 @@
-# Project Name
+# A Stylish Website
+
+Build me something stylish!
 
 ## Installation
 
@@ -51,3 +53,37 @@ Once this is done, create a **Pull Request** from the `solution` branch to the `
 via the GitHub interface.
 
 ## Assignments
+
+[Mobile](./mobile-mockup.png)
+
+[Tablet](./tablet-mockup.png)
+
+[Desktop](./desktop-mockup.png)
+
+Using the mockups available above, build a _Stylish Website_ using the resources available
+
++ Build a mobile, tablet and desktop version
+
++ Write your styles using SCSS
+
++ Use CSS Grid for the design of the site (where appropriate)
+
++ Use the following breakpoints:
+    - Mobile (0 - 525px)
+    - Tablet (526px - 1037px)
+    - Desktop (1038px +)
+    
++ For the arrow image, use the following element:
+    - `<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHhtbG5zOnhsaW5rPSdodHRwczovL3d3dy53My5vcmcvMTk5OS94bGluaycgd2lkdGg9JzM2cHgnIGhlaWdodD0nMjRweCcgdmlld0JveD0nMCAwIDM2IDI0JyB6b29tQW5kUGFuPSdkaXNhYmxlJz48c3R5bGU+bGluZSB7IHN0cm9rZTogI2ZmZmZmZjsgc3Ryb2tlLXdpZHRoOiAycHg7IH08L3N0eWxlPjxsaW5lIHgxPScwJyB5MT0nMTInIHgyPSczNCcgeTI9JzEyJyAvPjxsaW5lIHgxPScyNScgeTE9JzQnIHgyPSczNCcgeTI9JzEyLjUnIC8+PGxpbmUgeDE9JzI1JyB5MT0nMjAnIHgyPSczNCcgeTI9JzExLjUnIC8+PC9zdmc+" />`
+    - The image is ~~included~~ embedded in the URL!
+    
++ Fontawesome has already been setup for you. Use the following classes for the missing icons:
+    - `class="fas fa-envelope"` - envelope
+    - `class="fas fa-phone"` - phone
+    - `class="fas fa-home"` - home
+    - `class="fab fa-twitter"` - twitter
+    - `class="fab fa-facebook-f"` - facebook
+    - `class="fab fa-instagram"` - instagram
+    - `class="fab fa-github"` - github
+    - `class="fab fa-linkedin-in"` - linkedin
+    
