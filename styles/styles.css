@@ -4,194 +4,246 @@ body {
 body {
   color: white;
   font-family: 'Roboto', sans-serif; }
-  body #header {
-    background-image: url(/images/banner-landscape.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 60vh; }
-  body #bg-image {
-    background-color: #1e2846;
-    opacity: 0.7;
-    height: 100%;
-    width: 100%;
-    position: relative; }
-  body #header #bg-image #menu {
-    display: grid; }
-    body #header #bg-image #menu p {
-      display: none; }
-    body #header #bg-image #menu .fas {
-      padding: 10px;
-      justify-self: end; }
-  body #header #bg-image #header__content {
-    padding: 0 6vw;
-    margin-top: 10vh; }
-    body #header #bg-image #header__content .underlined {
-      border-top: 2px solid white;
-      padding-top: 25px; }
-    body #header #bg-image #header__content .start-button {
-      color: white;
-      border: 2px solid white;
-      background-color: Transparent;
-      display: flex;
-      align-items: center;
-      padding: 0 4vw;
-      width: 200px; }
-      body #header #bg-image #header__content .start-button p {
-        margin-right: 10px; }
-  body #main .category-aliquam {
-    background-image: url(/images/banner-person.jpg);
-    height: 50vh;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; }
-  body #main .category-tempus {
-    background-image: url(/images/banner-city.jpg);
-    height: 50vh;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; }
-  body #main .category-magna {
-    background-image: url(/images/banner-mountains.jpg);
-    height: 50vh;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; }
-  body #main .category-ipsum {
-    background-image: url(/images/banner-fox.jpg);
-    height: 50vh;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; }
-  body #main .category-consequat {
-    background-image: url(/images/banner-station.jpg);
-    height: 50vh;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; }
-  body #main .category-etiam {
-    background-image: url(/images/banner-camera.jpg);
-    height: 50vh;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; }
-  body #main .category-bg-aliquam {
-    background-color: #7baeb6;
-    opacity: 0.8;
-    height: 100%;
-    width: 100%;
-    position: relative; }
-  body #main .category-bg-tempus {
-    background-color: #817fbb;
-    opacity: 0.8;
-    height: 100%;
-    width: 100%;
-    position: relative; }
-  body #main .category-bg-magna {
-    background-color: #d79783;
-    opacity: 0.8;
-    height: 100%;
-    width: 100%;
-    position: relative; }
-  body #main .category-bg-ipsum {
-    background-color: #d6ab84;
-    opacity: 0.8;
-    height: 100%;
-    width: 100%;
-    position: relative; }
-  body #main .category-bg-consequat {
-    background-color: #8199d2;
-    opacity: 0.8;
-    height: 100%;
-    width: 100%;
-    position: relative; }
-  body #main .category-bg-etiam {
-    background-color: #79af96;
-    opacity: 0.8;
-    height: 100%;
-    width: 100%;
-    position: relative; }
-  body #main .category-bg {
+
+#header {
+  background-image: url(/images/banner-landscape.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 60vh; }
+
+#bg-image {
+  background-color: #1e2846;
+  opacity: 0.7;
+  height: 100%;
+  width: 100%;
+  position: relative; }
+
+#header #bg-image #menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; }
+  #header #bg-image #menu span {
+    display: none; }
+  #header #bg-image #menu .fas {
+    padding: 10px; }
+
+#bg-image #header__content {
+  padding: 0 6vw; }
+  #bg-image #header__content .start-button {
+    color: white;
+    border: 2px solid white;
+    background-color: Transparent;
     display: flex;
-    justify-content: flex-start;
-    align-items: center; }
-    body #main .category-bg .category__info {
-      padding-left: 5vw; }
-      body #main .category-bg .category__info p {
-        border-top: 2px solid white;
-        padding-top: 25px; }
-  body #contact .contact__text {
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1em;
+    width: 190px; }
+
+#main .category-aliquam {
+  background-image: url(/images/banner-person.jpg);
+  height: 50vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+#main .category-tempus {
+  background-image: url(/images/banner-city.jpg);
+  height: 50vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+#main .category-magna {
+  background-image: url(/images/banner-mountains.jpg);
+  height: 50vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+#main .category-ipsum {
+  background-image: url(/images/banner-fox.jpg);
+  height: 50vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+#main .category-consequat {
+  background-image: url(/images/banner-station.jpg);
+  height: 50vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+#main .category-etiam {
+  background-image: url(/images/banner-camera.jpg);
+  height: 50vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+#main .category-bg-aliquam {
+  background-color: #7baeb6;
+  opacity: 0.8;
+  height: 100%;
+  width: 100%;
+  position: relative; }
+
+#main .category-bg-tempus {
+  background-color: #817fbb;
+  opacity: 0.8;
+  height: 100%;
+  width: 100%;
+  position: relative; }
+
+#main .category-bg-magna {
+  background-color: #d79783;
+  opacity: 0.8;
+  height: 100%;
+  width: 100%;
+  position: relative; }
+
+#main .category-bg-ipsum {
+  background-color: #d6ab84;
+  opacity: 0.8;
+  height: 100%;
+  width: 100%;
+  position: relative; }
+
+#main .category-bg-consequat {
+  background-color: #8199d2;
+  opacity: 0.8;
+  height: 100%;
+  width: 100%;
+  position: relative; }
+
+#main .category-bg-etiam {
+  background-color: #79af96;
+  opacity: 0.8;
+  height: 100%;
+  width: 100%;
+  position: relative; }
+
+#main .category-bg {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; }
+  #main .category-bg .category__info {
+    padding-left: 5vw; }
+    #main .category-bg .category__info hr {
+      border: 1px solid white; }
+
+#contact .contact__text {
+  background-color: #434c62;
+  padding: 4vh 6vw; }
+  #contact .contact__text h2 {
+    display: inline-block;
+    border-bottom: 2px solid white;
+    padding-bottom: 20px; }
+  #contact .contact__text .start-button {
+    color: white;
+    border: 2px solid white;
+    background-color: Transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1em;
+    width: 190px; }
+
+#contact .contact__form {
+  background-color: #252a44;
+  padding: 4vh 6vw 7vh 6vw; }
+  #contact .contact__form form .contact__form__name,
+  #contact .contact__form form .contact__form__email {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 20px 40px;
+    grid-gap: 20px;
+    padding-top: 20px; }
+  #contact .contact__form form .contact__form__message {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 20px 200px;
+    grid-gap: 20px;
+    padding: 20px 0; }
+  #contact .contact__form form input,
+  #contact .contact__form form textarea {
     background-color: #434c62;
-    padding: 4vh 6vw; }
-    body #contact .contact__text h2 {
-      display: inline-block;
-      border-bottom: 2px solid white;
-      padding-bottom: 20px; }
-    body #contact .contact__text .start-button {
-      color: white;
-      border: 2px solid white;
-      background-color: Transparent;
-      display: flex;
-      align-items: center;
-      padding: 0 4vw;
-      width: 200px; }
-      body #contact .contact__text .start-button p {
-        margin-right: 10px; }
-  body #contact .contact__form {
-    background-color: #252a44;
-    padding: 6vh 6vw; }
-    body #contact .contact__form form {
-      display: grid;
-      grid-gap: 20px;
-      grid-template-columns: 1;
-      grid-template-rows: repeat(2, 20px 40px) 20px 200px;
-      padding-bottom: 20px; }
-      body #contact .contact__form form input,
-      body #contact .contact__form form textarea {
-        background-color: #434c62;
-        border: none; }
-    body #contact .contact__form .button-submit,
-    body #contact .contact__form .button-reset {
-      padding: 10px 20px; }
-    body #contact .contact__form .button-submit {
-      color: #252a44;
-      margin-right: 10px; }
-    body #contact .contact__form .button-reset {
-      border: 2px solid white;
-      color: white;
-      background-color: #252a44; }
-  body #contact .contact__info {
+    border: none; }
+  #contact .contact__form .button-submit,
+  #contact .contact__form .button-reset {
+    padding: 10px 20px; }
+  #contact .contact__form .button-submit {
+    color: #252a44;
+    margin-right: 10px; }
+  #contact .contact__form .button-reset {
+    border: 2px solid white;
+    color: white;
     background-color: #252a44; }
-    body #contact .contact__info hr {
-      margin: 0;
-      border: 1.5px solid #434c62; }
-    body #contact .contact__info .contact__info___email,
-    body #contact .contact__info .contact__info___phone,
-    body #contact .contact__info .contact__info___address {
-      padding: 25px 0 25px 6vw;
-      display: grid;
-      grid-template-columns: 35px 200px; }
-      body #contact .contact__info .contact__info___email .fas,
-      body #contact .contact__info .contact__info___phone .fas,
-      body #contact .contact__info .contact__info___address .fas {
-        margin-top: 19px; }
-      body #contact .contact__info .contact__info___email div p,
-      body #contact .contact__info .contact__info___phone div p,
-      body #contact .contact__info .contact__info___address div p {
-        color: #434c62; }
-  body #footer {
-    background-color: #252a44;
-    padding: 0 6vw; }
-    body #footer .footer__icons {
-      padding: 30px 0 10px 0; }
-      body #footer .footer__icons .fab {
-        padding: 0 5px; }
-    body #footer p {
-      padding-bottom: 60px;
+
+#contact .contact__info {
+  background-color: #252a44; }
+  #contact .contact__info hr {
+    margin: 0;
+    border: 1px solid #434c62; }
+  #contact .contact__info .contact__info___email,
+  #contact .contact__info .contact__info___phone,
+  #contact .contact__info .contact__info___address {
+    padding: 25px 0 25px 6vw;
+    display: grid;
+    grid-template-columns: 35px 200px; }
+    #contact .contact__info .contact__info___email .fas,
+    #contact .contact__info .contact__info___phone .fas,
+    #contact .contact__info .contact__info___address .fas {
+      margin-top: 19px; }
+    #contact .contact__info .contact__info___email div p,
+    #contact .contact__info .contact__info___phone div p,
+    #contact .contact__info .contact__info___address div p {
       color: #434c62; }
+
+#footer {
+  background-color: #252a44;
+  padding: 0 6vw; }
+  #footer .footer__icons {
+    padding: 30px 0 10px 0; }
+    #footer .footer__icons .fab {
+      padding: 0 5px; }
+  #footer p {
+    padding-bottom: 60px;
+    color: #434c62; }
+
+@media screen and (min-width: 526px) and (max-width: 1037px) {
+  #header {
+    height: 35vh; }
+  #header #bg-image #menu span {
+    display: inline; }
+  #header #bg-image #header__content {
+    margin-top: 5vh; }
+    #header #bg-image #header__content .description {
+      width: 50vw; }
+  #main {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(3, 27vh); }
+    #main .category {
+      height: auto; }
+    #main .category-bg {
+      height: 27vh;
+      background-size: 27vh auto; }
+  #contact .contact__form form {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-gap: 20px; }
+    #contact .contact__form form .contact__form__message {
+      grid-column: 1 / span 2;
+      grid-row: 2 / 3; } }
+
+@media only screen and (min-width: 1038px) {
+  #header {
+    height: 100vh; } }

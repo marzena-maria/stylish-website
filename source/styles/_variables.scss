@@ -23,11 +23,10 @@ $text-color: white;
     background-color: Transparent;
     display: flex;
     align-items: center;
-    padding: 0 4vw;
-    width: 200px;
-    p {
-        margin-right: 10px;
-    } 
+    justify-content: space-between;
+    padding: 0 1em;
+    width: 190px;
+ 
 }
 
 @mixin white-line {
