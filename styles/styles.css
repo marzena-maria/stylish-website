@@ -30,7 +30,7 @@ body {
 
 #bg-image #header__content {
   padding: 0 6vw; }
-  #bg-image #header__content .start-button {
+  #bg-image #header__content .header__content__bottom .start-button {
     color: white;
     border: 2px solid white;
     background-color: Transparent;
@@ -218,14 +218,14 @@ body {
     padding-bottom: 60px;
     color: #434c62; }
 
-@media screen and (min-width: 526px) and (max-width: 1037px) {
+@media screen and (min-width: 526px) {
   #header {
     height: 35vh; }
   #header #bg-image #menu span {
     display: inline; }
   #header #bg-image #header__content {
     margin-top: 5vh; }
-    #header #bg-image #header__content .description {
+    #header #bg-image #header__content .header__content__bottom .description {
       width: 50vw; }
   #main {
     display: grid;
@@ -246,4 +246,48 @@ body {
 
 @media only screen and (min-width: 1038px) {
   #header {
-    height: 100vh; } }
+    height: 100vh; }
+  #header #bg-image #header__content {
+    margin-top: 35vh; }
+    #header #bg-image #header__content .header__content__bottom {
+      display: grid;
+      grid-template-columns: 35% auto auto;
+      padding-top: 20px; }
+      #header #bg-image #header__content .header__content__bottom .description {
+        width: auto; }
+  #main {
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: repeat(3, 60vh); }
+    #main .category-bg {
+      height: 60vh; }
+    #main .category-aliquam,
+    #main .category-consequat {
+      grid-column: 1 / span 2; }
+    #main .category-ipsum {
+      grid-column: 4 / span 2; }
+    #main .category-tempus,
+    #main .category-etiam {
+      grid-column: 3 / span 3; }
+    #main .category-magna {
+      grid-column: 1 / span 3; }
+  #contact .contact__form__info__grid {
+    display: grid;
+    grid-template-columns: 63% auto;
+    border-bottom: 2px solid #434c62; }
+    #contact .contact__form__info__grid .contact__form {
+      border-right: 2px solid #434c62; }
+    #contact .contact__form__info__grid .contact__info {
+      display: flex;
+      flex-direction: column;
+      align-content: center; }
+      #contact .contact__form__info__grid .contact__info .contact__info___email,
+      #contact .contact__form__info__grid .contact__info .contact__info___phone {
+        border-bottom: 2px solid #434c62; }
+      #contact .contact__form__info__grid .contact__info hr {
+        display: none; }
+  #footer {
+    display: flex;
+    justify-content: space-between; }
+    #footer .footer__icons, #footer p {
+      padding: 0;
+      margin: 30px 0; } }

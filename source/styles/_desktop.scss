@@ -3,4 +3,83 @@
     #header {
         height: 100vh;
     }
+
+    #header #bg-image #header__content {
+        margin-top: 35vh;
+        
+        .header__content__bottom {
+            display: grid;
+            grid-template-columns: 35% auto auto;
+            padding-top: 20px;
+
+            .description {
+                width: auto;
+            }
+        }
+    }
+
+    #main {
+        grid-template-columns:  repeat(5, 20%);
+        grid-template-rows: repeat(3, 60vh);
+
+        .category-bg {
+            height: 60vh;
+        }
+
+        .category-aliquam,
+        .category-consequat {
+            grid-column: 1 / span 2;
+        }
+
+        .category-ipsum {
+            grid-column: 4 / span 2;
+        }
+
+        .category-tempus,
+        .category-etiam {
+            grid-column: 3 / span 3;
+        }
+
+        .category-magna {
+            grid-column: 1 / span 3;
+        }
+
+    }
+
+    #contact .contact__form__info__grid {
+        display: grid;
+        grid-template-columns: 63% auto;
+        border-bottom: 2px solid $bg-lighter;
+
+        .contact__form {
+            border-right: 2px solid $bg-lighter;
+        }
+
+        .contact__info {
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            
+            .contact__info___email,
+            .contact__info___phone {
+                border-bottom: 2px solid $bg-lighter;
+            }
+
+            hr {
+                display: none;
+            }
+        } 
+    }
+
+    #footer {
+        display: flex;
+        justify-content: space-between;
+        //align-items: center;
+
+        .footer__icons, p {
+            padding: 0;
+            margin: 30px 0;
+        }
+    }
+
 }

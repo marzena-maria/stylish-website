@@ -37,10 +37,9 @@ body {
     }
 
     #bg-image #header__content {
-        padding: 0 6vw;
-        
+        padding: 0 6vw;       
     
-        .start-button {
+        .header__content__bottom .start-button {
             @include button;
         }
     }
