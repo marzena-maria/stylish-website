@@ -29,7 +29,8 @@ body {
     padding: 10px; }
 
 #bg-image #header__content {
-  padding: 0 6vw; }
+  padding: 0 6vw;
+  margin-top: 25%; }
   #bg-image #header__content .header__content__bottom .start-button {
     color: white;
     border: 2px solid white;
