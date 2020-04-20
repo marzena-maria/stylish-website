@@ -4,8 +4,16 @@
         height: 100vh;
     }
 
+    #header #bg-image #menu {
+        padding: 1% 1% 0 0;
+    }
+
     #header #bg-image #header__content {
         margin-top: 35vh;
+
+        h1 {
+            font-size: 55px;
+        }
         
         .header__content__bottom {
             display: grid;

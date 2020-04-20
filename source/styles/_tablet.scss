@@ -4,12 +4,16 @@
         height: 35vh;
     }
 
-    #header #bg-image #menu {
-
-        span {
+    #header #bg-image {
+    
+        #menu span {
             display: inline;
+            @include uppercase-text-12;
         }
-        
+
+        #header__content h1 {
+            font-size: 50px;
+        }
     }
 
     #header #bg-image #header__content {
@@ -35,7 +39,7 @@
         }
     }
 
-    #contact .contact__form form {
+    #contact .contact__form__info__grid .contact__form form {
         display: grid;
         grid-template-columns:  repeat(2, 50%);
         grid-gap: 20px;

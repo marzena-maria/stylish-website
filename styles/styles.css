@@ -31,15 +31,24 @@ body {
 #bg-image #header__content {
   padding: 0 6vw;
   margin-top: 25%; }
-  #bg-image #header__content .header__content__bottom .start-button {
+  #bg-image #header__content .header__content__bottom
+.description {
+    padding-top: 10px;
+    font-size: 10px;
+    letter-spacing: 4px;
+    line-height: 2; }
+  #bg-image #header__content .start-button {
     color: white;
     border: 2px solid white;
     background-color: Transparent;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 1em;
-    width: 190px; }
+    padding: 3px 10px;
+    width: 190px;
+    letter-spacing: 4px;
+    font-size: 12px;
+    font-weight: bold; }
 
 #main .category-aliquam {
   background-image: url(/images/banner-person.jpg);
@@ -137,16 +146,28 @@ body {
   align-items: center; }
   #main .category-bg .category__info {
     padding-left: 5vw; }
+    #main .category-bg .category__info h2 {
+      letter-spacing: 3px; }
     #main .category-bg .category__info hr {
       border: 1px solid white; }
+    #main .category-bg .category__info p {
+      font-size: 10px;
+      letter-spacing: 4px;
+      line-height: 2; }
 
 #contact .contact__text {
-  background-color: #434c62;
+  background-color: #2a2f4a;
   padding: 4vh 6vw; }
   #contact .contact__text h2 {
     display: inline-block;
     border-bottom: 2px solid white;
-    padding-bottom: 20px; }
+    padding-bottom: 20px;
+    letter-spacing: 2px; }
+  #contact .contact__text .contact__text_p {
+    color: #737587;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    font-weight: lighter; }
   #contact .contact__text .start-button {
     color: white;
     border: 2px solid white;
@@ -154,59 +175,70 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 1em;
-    width: 190px; }
+    padding: 3px 10px;
+    width: 190px;
+    letter-spacing: 4px;
+    font-size: 12px;
+    font-weight: bold; }
 
-#contact .contact__form {
+#contact .contact__form__info__grid .contact__form {
   background-color: #252a44;
   padding: 4vh 6vw 7vh 6vw; }
-  #contact .contact__form form .contact__form__name,
-  #contact .contact__form form .contact__form__email {
+  #contact .contact__form__info__grid .contact__form form .contact__form__name,
+  #contact .contact__form__info__grid .contact__form form .contact__form__email {
     display: grid;
     grid-template-columns: 1;
     grid-template-rows: 20px 40px;
     grid-gap: 20px;
-    padding-top: 20px; }
-  #contact .contact__form form .contact__form__message {
+    padding-top: 20px;
+    font-size: 12px;
+    letter-spacing: 4px; }
+  #contact .contact__form__info__grid .contact__form form .contact__form__message {
     display: grid;
     grid-template-columns: 1;
     grid-template-rows: 20px 200px;
     grid-gap: 20px;
-    padding: 20px 0; }
-  #contact .contact__form form input,
-  #contact .contact__form form textarea {
-    background-color: #434c62;
+    padding: 20px 0;
+    letter-spacing: 4px;
+    font-size: 12px;
+    font-size: 12px;
+    letter-spacing: 4px; }
+  #contact .contact__form__info__grid .contact__form form input,
+  #contact .contact__form__info__grid .contact__form form textarea {
+    background-color: #2a2f4a;
     border: none; }
-  #contact .contact__form .button-submit,
-  #contact .contact__form .button-reset {
-    padding: 10px 20px; }
-  #contact .contact__form .button-submit {
+  #contact .contact__form__info__grid .contact__form .button-submit,
+  #contact .contact__form__info__grid .contact__form .button-reset {
+    padding: 10px 20px;
+    letter-spacing: 4px;
+    font-size: 12px; }
+  #contact .contact__form__info__grid .contact__form .button-submit {
     color: #252a44;
     margin-right: 10px; }
-  #contact .contact__form .button-reset {
+  #contact .contact__form__info__grid .contact__form .button-reset {
     border: 2px solid white;
     color: white;
     background-color: #252a44; }
 
-#contact .contact__info {
+#contact .contact__form__info__grid .contact__info {
   background-color: #252a44; }
-  #contact .contact__info hr {
+  #contact .contact__form__info__grid .contact__info hr {
     margin: 0;
-    border: 1px solid #434c62; }
-  #contact .contact__info .contact__info___email,
-  #contact .contact__info .contact__info___phone,
-  #contact .contact__info .contact__info___address {
+    border: 1px solid #2a2f4a; }
+  #contact .contact__form__info__grid .contact__info .contact__info___email,
+  #contact .contact__form__info__grid .contact__info .contact__info___phone,
+  #contact .contact__form__info__grid .contact__info .contact__info___address {
     padding: 25px 0 25px 6vw;
     display: grid;
     grid-template-columns: 35px 200px; }
-    #contact .contact__info .contact__info___email .fas,
-    #contact .contact__info .contact__info___phone .fas,
-    #contact .contact__info .contact__info___address .fas {
+    #contact .contact__form__info__grid .contact__info .contact__info___email .fas,
+    #contact .contact__form__info__grid .contact__info .contact__info___phone .fas,
+    #contact .contact__form__info__grid .contact__info .contact__info___address .fas {
       margin-top: 19px; }
-    #contact .contact__info .contact__info___email div p,
-    #contact .contact__info .contact__info___phone div p,
-    #contact .contact__info .contact__info___address div p {
-      color: #434c62; }
+    #contact .contact__form__info__grid .contact__info .contact__info___email div p,
+    #contact .contact__form__info__grid .contact__info .contact__info___phone div p,
+    #contact .contact__form__info__grid .contact__info .contact__info___address div p {
+      color: #737587; }
 
 #footer {
   background-color: #252a44;
@@ -217,13 +249,17 @@ body {
       padding: 0 5px; }
   #footer p {
     padding-bottom: 60px;
-    color: #434c62; }
+    color: #2a2f4a; }
 
 @media screen and (min-width: 526px) {
   #header {
     height: 35vh; }
   #header #bg-image #menu span {
-    display: inline; }
+    display: inline;
+    font-size: 12px;
+    letter-spacing: 4px; }
+  #header #bg-image #header__content h1 {
+    font-size: 50px; }
   #header #bg-image #header__content {
     margin-top: 5vh; }
     #header #bg-image #header__content .header__content__bottom .description {
@@ -237,19 +273,23 @@ body {
     #main .category-bg {
       height: 27vh;
       background-size: 27vh auto; }
-  #contact .contact__form form {
+  #contact .contact__form__info__grid .contact__form form {
     display: grid;
     grid-template-columns: repeat(2, 50%);
     grid-gap: 20px; }
-    #contact .contact__form form .contact__form__message {
+    #contact .contact__form__info__grid .contact__form form .contact__form__message {
       grid-column: 1 / span 2;
       grid-row: 2 / 3; } }
 
 @media only screen and (min-width: 1038px) {
   #header {
     height: 100vh; }
+  #header #bg-image #menu {
+    padding: 1% 1% 0 0; }
   #header #bg-image #header__content {
     margin-top: 35vh; }
+    #header #bg-image #header__content h1 {
+      font-size: 55px; }
     #header #bg-image #header__content .header__content__bottom {
       display: grid;
       grid-template-columns: 35% auto auto;
@@ -274,16 +314,16 @@ body {
   #contact .contact__form__info__grid {
     display: grid;
     grid-template-columns: 63% auto;
-    border-bottom: 2px solid #434c62; }
+    border-bottom: 2px solid #2a2f4a; }
     #contact .contact__form__info__grid .contact__form {
-      border-right: 2px solid #434c62; }
+      border-right: 2px solid #2a2f4a; }
     #contact .contact__form__info__grid .contact__info {
       display: flex;
       flex-direction: column;
       align-content: center; }
       #contact .contact__form__info__grid .contact__info .contact__info___email,
       #contact .contact__form__info__grid .contact__info .contact__info___phone {
-        border-bottom: 2px solid #434c62; }
+        border-bottom: 2px solid #2a2f4a; }
       #contact .contact__form__info__grid .contact__info hr {
         display: none; }
   #footer {

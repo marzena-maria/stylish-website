@@ -40,9 +40,14 @@ body {
         padding: 0 6vw; 
         margin-top: 25%; 
     
-        .header__content__bottom .start-button {
-            @include button;
-        }
+        .header__content__bottom 
+            .description {
+                padding-top: 10px;
+                @include uppercase-text-10;
+            }
+            .start-button {
+                @include button;
+            }
     }
 
     #main {
@@ -115,8 +120,16 @@ body {
             .category__info {
                 padding-left: 5vw;
 
+                h2 {
+                    letter-spacing: 3px;
+                }
+
                 hr {
                     border: 1px solid white;
+                }
+
+                p {
+                    @include uppercase-text-10;
                 }
             }  
         }  
@@ -132,6 +145,14 @@ body {
                 display: inline-block;
                 border-bottom: 2px solid white;
                 padding-bottom: 20px;
+                letter-spacing: 2px;
+            }
+
+            .contact__text_p {
+                color: $text-darker;
+                letter-spacing: 2px;
+                line-height: 1.5;
+                font-weight: lighter;
             }
 
             .start-button {
@@ -139,7 +160,7 @@ body {
             }
         }
 
-        .contact__form {
+        .contact__form__info__grid .contact__form {
             background-color: $bg-darker;
             padding: 4vh 6vw 7vh 6vw;
 
@@ -151,6 +172,7 @@ body {
                     grid-template-rows: 20px 40px;
                     grid-gap: 20px;
                     padding-top: 20px;
+                    @include uppercase-text-12;
                 }
 
                 .contact__form__message {
@@ -159,6 +181,9 @@ body {
                     grid-template-rows: 20px 200px;
                     grid-gap: 20px;
                     padding: 20px 0;
+                    letter-spacing: 4px;
+                    font-size: 12px;
+                    @include uppercase-text-12;
                 }
 
 
@@ -172,6 +197,8 @@ body {
             .button-submit,
             .button-reset {
                 padding: 10px 20px;
+                letter-spacing: 4px;
+                font-size: 12px;
             }
 
             .button-submit {
@@ -187,7 +214,7 @@ body {
 
         }
 
-        .contact__info {
+        .contact__form__info__grid .contact__info {
             background-color: $bg-darker;
 
             hr {
@@ -207,7 +234,7 @@ body {
                 }
 
                 div p {
-                    color: $bg-lighter;
+                    color: $text-darker;
                 }
             }
 
