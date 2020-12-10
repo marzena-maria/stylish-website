@@ -10,10 +10,6 @@
             display: inline;
             @include uppercase-text-12;
         }
-
-        #header__content h1 {
-            font-size: 50px;
-        }
     }
 
     #header #bg-image #header__content {
