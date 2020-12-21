@@ -253,15 +253,13 @@ body {
 
 @media screen and (min-width: 526px) {
   #header {
-    height: 35vh; }
+    height: 45vh; }
   #header #bg-image #menu span {
     display: inline;
     font-size: 12px;
     letter-spacing: 4px; }
-  #header #bg-image #header__content h1 {
-    font-size: 50px; }
   #header #bg-image #header__content {
-    margin-top: 5vh; }
+    margin-top: 5%; }
     #header #bg-image #header__content .header__content__bottom .description {
       width: 50vw; }
   #main {
