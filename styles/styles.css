@@ -6,7 +6,7 @@ body {
   font-family: 'Roboto', sans-serif; }
 
 #header {
-  background-image: url(/images/banner-landscape.jpg);
+  background-image: url(images/banner-landscape.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -51,7 +51,7 @@ body {
     font-weight: bold; }
 
 #main .category-aliquam {
-  background-image: url(/images/banner-person.jpg);
+  background-image: url(images/banner-person.jpg);
   height: 50vh;
   width: 100%;
   background-repeat: no-repeat;
@@ -59,7 +59,7 @@ body {
   background-position: center; }
 
 #main .category-tempus {
-  background-image: url(/images/banner-city.jpg);
+  background-image: url(images/banner-city.jpg);
   height: 50vh;
   width: 100%;
   background-repeat: no-repeat;
@@ -67,7 +67,7 @@ body {
   background-position: center; }
 
 #main .category-magna {
-  background-image: url(/images/banner-mountains.jpg);
+  background-image: url(images/banner-mountains.jpg);
   height: 50vh;
   width: 100%;
   background-repeat: no-repeat;
@@ -75,7 +75,7 @@ body {
   background-position: center; }
 
 #main .category-ipsum {
-  background-image: url(/images/banner-fox.jpg);
+  background-image: url(images/banner-fox.jpg);
   height: 50vh;
   width: 100%;
   background-repeat: no-repeat;
@@ -83,7 +83,7 @@ body {
   background-position: center; }
 
 #main .category-consequat {
-  background-image: url(/images/banner-station.jpg);
+  background-image: url(images/banner-station.jpg);
   height: 50vh;
   width: 100%;
   background-repeat: no-repeat;
@@ -91,7 +91,7 @@ body {
   background-position: center; }
 
 #main .category-etiam {
-  background-image: url(/images/banner-camera.jpg);
+  background-image: url(images/banner-camera.jpg);
   height: 50vh;
   width: 100%;
   background-repeat: no-repeat;
