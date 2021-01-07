@@ -4,7 +4,7 @@ body {
 }
 
     #header {
-        background-image: url(/images/banner-landscape.jpg);
+        background-image: url(images/banner-landscape.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -53,32 +53,32 @@ body {
     #main {
       
         .category-aliquam {
-            background-image: url(/images/banner-person.jpg);
+            background-image: url(images/banner-person.jpg);
             @include category-bg;
         }
 
         .category-tempus {
-            background-image: url(/images/banner-city.jpg);
+            background-image: url(images/banner-city.jpg);
             @include category-bg;
         }
 
         .category-magna {
-            background-image: url(/images/banner-mountains.jpg);
+            background-image: url(images/banner-mountains.jpg);
             @include category-bg;
         }
 
         .category-ipsum {
-            background-image: url(/images/banner-fox.jpg);
+            background-image: url(images/banner-fox.jpg);
             @include category-bg;
         }
 
         .category-consequat {
-            background-image: url(/images/banner-station.jpg);
+            background-image: url(images/banner-station.jpg);
             @include category-bg;
         }
 
         .category-etiam {
-            background-image: url(/images/banner-camera.jpg);
+            background-image: url(images/banner-camera.jpg);
             @include category-bg; 
         }
 
